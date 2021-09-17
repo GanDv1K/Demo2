@@ -32,7 +32,7 @@ class NextFragment : Fragment() {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
-        binding.buttonNext.setOnClickListener {
+        binding.Back1.setOnClickListener {
             findNavController().navigate(R.id.action_nextFragment2_to_FirstFragment)
         }
     }
